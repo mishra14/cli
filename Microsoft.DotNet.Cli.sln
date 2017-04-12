@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED2FE3E2-F7E7-4389-8231-B65123F2076F}"
 EndProject
@@ -166,7 +166,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet.Tests", "test\dotnet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-build.Tests", "test\dotnet-build.Tests\dotnet-build.Tests.csproj", "{BBB5A4C8-CD2D-4A6A-9159-0FEAF84B745E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-help.Tests", "test\dotnet-help.Tests\dotnet-help.Tests.csproj", "{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-help.Tests", "test\dotnet-help.Tests\dotnet-help.Tests.csproj", "{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-migrate.Tests", "test\dotnet-migrate.Tests\dotnet-migrate.Tests.csproj", "{726D2CB9-80E5-4496-9C86-910AC452C45E}"
 EndProject
@@ -962,6 +962,30 @@ Global
 		{BBB5A4C8-CD2D-4A6A-9159-0FEAF84B745E}.RelWithDebInfo|x64.Build.0 = Release|Any CPU
 		{BBB5A4C8-CD2D-4A6A-9159-0FEAF84B745E}.RelWithDebInfo|x86.ActiveCfg = Release|Any CPU
 		{BBB5A4C8-CD2D-4A6A-9159-0FEAF84B745E}.RelWithDebInfo|x86.Build.0 = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Debug|x64.Build.0 = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Debug|x86.Build.0 = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.MinSizeRel|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.MinSizeRel|Any CPU.Build.0 = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.MinSizeRel|x64.ActiveCfg = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.MinSizeRel|x64.Build.0 = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.MinSizeRel|x86.ActiveCfg = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.MinSizeRel|x86.Build.0 = Debug|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Release|x64.ActiveCfg = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Release|x64.Build.0 = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Release|x86.ActiveCfg = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.Release|x86.Build.0 = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.RelWithDebInfo|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.RelWithDebInfo|Any CPU.Build.0 = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.RelWithDebInfo|x64.ActiveCfg = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.RelWithDebInfo|x64.Build.0 = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.RelWithDebInfo|x86.ActiveCfg = Release|Any CPU
+		{8AA88E83-6A98-4AD6-86EB-2ED4F6EDA17F}.RelWithDebInfo|x86.Build.0 = Release|Any CPU
 		{726D2CB9-80E5-4496-9C86-910AC452C45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{726D2CB9-80E5-4496-9C86-910AC452C45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{726D2CB9-80E5-4496-9C86-910AC452C45E}.Debug|x64.ActiveCfg = Release|Any CPU

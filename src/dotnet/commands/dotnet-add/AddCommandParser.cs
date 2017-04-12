@@ -18,7 +18,8 @@ namespace Microsoft.DotNet.Cli
                 Accept.ExactlyOneArgument()
                       .DefaultToCurrentDirectory()
                       .With(name: CommonLocalizableStrings.CmdProjectFile,
-                            description: CommonLocalizableStrings.ArgumentsProjectDescription), AddPackageParser.AddPackage(),
+                            description: CommonLocalizableStrings.ArgumentsProjectDescription), 
+                AddPackageParser.AddPackage(),
                 AddProjectToProjectReferenceParser.AddProjectReference(),
                 CommonOptions.HelpOption());
     }
